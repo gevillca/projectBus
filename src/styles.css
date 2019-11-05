@@ -1,1 +1,28 @@
 /* You can add global styles to this file, and also import other style files */
+.big-banner {
+  background: url(assets/smooth-ice.jpg);
+}
+body {
+  height: 100%;
+}
+
+#page-content {
+  flex: 1 0 auto;
+}
+
+#sticky-footer {
+  flex-shrink: none;
+}
+
+/* Other Classes for Page Styling */
+
+body {
+  background: #656e77;
+  background: linear-gradient(to right, #edeef1, #bdc0c2);
+}
+/* main {
+  background: white;
+}
+div carousel {
+  background: white;
+} */
