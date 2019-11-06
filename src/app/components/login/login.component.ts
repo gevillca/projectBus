@@ -6,10 +6,8 @@ import { Component, OnInit } from '@angular/core';
   styles: []
 })
 export class LoginComponent implements OnInit {
+  login: false;
+  constructor() {}
 
-  constructor() { }
-
-  ngOnInit() {
-  }
-
+  ngOnInit() {}
 }
